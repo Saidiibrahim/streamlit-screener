@@ -9,3 +9,6 @@ venv.bak/
 
 # Pycharm project files
 *.idea
+
+# Package files
+*.egg-info
