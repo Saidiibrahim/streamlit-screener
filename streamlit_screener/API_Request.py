@@ -3,11 +3,11 @@ import pandas as pd
 import requests
 
 
-API_KEY = "YOUR_API_KEY_HERE"
+# API_KEY = "YOUR_API_KEY_HERE"
 
 
 def get_screener_data(marketcapmorethan=1000000000, betamorethan=1, volmorethan=10000, sector="Technology",
-                      exchange="NASDAQ", dividendmorethan=0, limit=100, api_key=API_KEY):
+                      exchange="NASDAQ", dividendmorethan=0, limit=100, api_key: str = ""):
     """
     Receive the content of ``url``, parse it as JSON and return the object.
 
