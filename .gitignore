@@ -11,6 +11,7 @@ venv.bak/
 *.idea
 
 # Distribution / packaging
-streamlit_screener/*.egg-info/
+*.egg-info/
 dist/
 build/
+MANIFEST.in
