@@ -11,4 +11,4 @@ venv.bak/
 *.idea
 
 # Package files
-*.egg-info/
+*.egg-info
