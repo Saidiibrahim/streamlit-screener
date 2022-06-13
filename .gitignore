@@ -11,4 +11,4 @@ venv.bak/
 *.idea
 
 # Package files
-*.egg-info
+streamlit_screener/streamlit_screener.egg-info
