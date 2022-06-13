@@ -10,5 +10,7 @@ venv.bak/
 # Pycharm project files
 *.idea
 
-# Package files
+# Distribution / packaging
 streamlit_screener/*.egg-info/
+dist/
+build/
